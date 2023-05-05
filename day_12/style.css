@@ -1,0 +1,63 @@
+body{
+    background-color: red;
+    text-align: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: white;
+}
+@media  (orientation:landscape) {
+    body{
+        background-color: green;
+    }
+}
+@media screen and (prefers-color-scheme:dark){
+    body{
+        background-color: darkred;
+    }
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    body{
+        background-color: blue;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    body{
+        background-color: orange;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    body{
+        background-color: brown;
+    }
+}
+
+/* @media screen and (min-width:1201px) {
+    body{
+        background-color: red;
+    }
+} */
