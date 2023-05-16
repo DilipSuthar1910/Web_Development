@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Introduction</title>
+</head>
+<body>
+    <!-- Inline JS -->
+    <p onclick="alert('kese ho')">Tap on this you see some type of pop-up</p>
+    <!-- Internal JS -->
+    <script>
+        // alert('do it')
+        function konsaWala(val){
+            console.log(val+val)
+        }
+    </script>
+    <p onclick="konsaWala('koiValue')">Internal JS call</p>
+    <!-- External JS -->
+    <p onclick="DoSomething(5)">YE bahar vale ko call krega</p>
+    <script src="day_16.js"></script>
+</body>
+</html>
